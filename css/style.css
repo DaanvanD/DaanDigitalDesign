@@ -1,0 +1,1204 @@
+body{background-color: #444;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+.orange{color: #FFAD29;}
+.gray{color: #444;}
+.blue{color: #7EBDC2;
+}
+.purple{color: #7D7ABC;
+}
+.pink{color: #F6828C;
+}
+
+
+
+
+.WorkLink {
+    display: block;  /* Zorg ervoor dat de <a> als een blok werkt en de volledige ruimte van de div inneemt */
+    text-decoration: none;  /* Verwijder de onderlijning van de link */
+    color: inherit;  /* Zorg ervoor dat de link de tekstkleur erft van de parent */
+}
+
+.Work {
+    display: block;  /* Zorg ervoor dat de Work container de ruimte volledig gebruikt */
+}
+
+
+
+p{font-family: "brevia", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;}
+
+h1{font-family: "fatfrank", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    
+}
+
+h2{
+    font-family: "fatfrank", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;}
+
+h3{font-size: 25px;
+    font-family: "fatfrank", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    max-width: 351px;
+}
+
+
+header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 57px;
+   margin-right: 57px;
+   margin-top: 27px;
+  margin-bottom: 40px;
+   top: -100px;
+   
+
+}
+.port{
+    position: relative;
+    
+    
+}
+
+.title{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 10;
+    color: #F4F0EA;
+    background-color: #FFAD29;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 13px;
+}
+
+ .imgSlider {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+   
+}
+
+.scroll-container {
+    display: flex;
+    gap: 40px;
+   
+        
+}
+
+.scroll-container img {
+    
+    height: auto;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.aboutme{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   padding-left: 10px;
+   padding-right:10px ;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    background-color: #FFAD29;
+    color: #444;
+}
+
+.aboutme img{
+    width: 25%;
+    height: 100%;
+    border-radius: 13px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    max-width: 351px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+.Work{
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 389px;
+   
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 23px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.one{
+    background-color: #7EBDC2;
+}
+
+.two{
+    background-color: #7D7ABC;
+}
+
+.three{
+    background-color: #F6828C;;
+}
+
+.Work h2{
+    position: absolute;
+    top: -43px;
+    transition: color 0.3s ease;
+    
+}
+
+.special{
+   
+    margin-bottom: 73px;
+}
+.big{
+    width: 299px;
+    border-radius: 13px;
+    margin-bottom: 15px;
+}
+
+.SeeMoreBut{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+    text-align: right;
+}
+
+.object{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin-bottom: 150px;
+    
+}
+
+.MyWork{
+    width: 80%;
+  
+ margin: 0 auto;
+
+}
+
+.MyWork h1{
+    text-align: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.MySkills{
+    background-color: #FFAD29;
+    
+    margin-bottom: 150px;
+}
+
+
+.MySkills h1{
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+    
+   
+    
+   
+}
+
+.skill1{
+    padding-top:62px ;
+}
+
+
+.skill{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 15px;
+    
+    
+   
+}
+
+.skillend{
+    padding-bottom: 62px;
+}
+
+.skillnamepic{
+    display: flex;
+    
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+
+.progressbar {
+    width: 40%;
+    height: 20px;
+    background-color: #3d3d3d;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    ;
+}
+
+.success {
+    height: 100%;
+    width: 0; /* Begin altijd op 0 */
+    background-color: #8cc0c3;
+    transition: width 2s ease-in-out;
+}
+
+footer{
+    display: flex;
+    
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 57px;
+   margin-right: 57px;
+   margin-bottom: 100px;
+   
+  
+}
+
+.contacts{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* branding page */
+
+.bigger{font-size: 60px;}
+
+.around{padding-top: 50px;
+    padding-bottom: 50px;
+   padding-left: 50px;
+     padding-right: 50px;
+     width: 70%;
+     border-radius: 25px;
+     background-color: #7EBDC2;
+     color: #444;
+     margin: 0 auto;
+    position: relative;
+margin-top: 150px;}
+
+
+.inhoud{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    gap: 55px;
+}
+
+.titlearound{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 10;
+    color: #444;
+    background-color: #7EBDC2;
+    border: 4px solid #444;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 13px;
+}
+
+.projectphoto{
+    width: 45%;
+    height: 45%;
+    border-radius: 13px;
+
+}
+
+.textinhoud{
+    max-width: 400px;
+}
+
+
+
+.foot2{
+    margin-top: 150px;
+}
+
+
+
+.white{
+    color: #F1EDED;
+}
+
+.firstsec{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    gap: 90px;
+    margin-top: 150px;
+}
+
+.secondsec{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    gap: 90px;
+    margin-top: 150px;
+}
+.imgsec{
+    display: flex;
+    gap: 40px;
+justify-content: center;
+margin-top: 150px;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.imgsec img{
+    width: 45%;
+    height: 45%;
+    border-radius: 13px;
+}
+
+.norad img{
+    border-radius: 0px;
+}
+.img2sec{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.fotoo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+button{ font-family: "fatfrank", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+background-color: #7EBDC2;
+margin-top: 100px;
+padding: 10px;
+border: none;
+border-radius: 13px;
+color: #444;}
+
+button:hover{
+    background-color: #FFAD29;
+    color: #444;
+    cursor: pointer;
+}
+
+    .whitesquare{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .posters {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Verdeelt de afbeeldingen in 3 kolommen */
+        grid-gap: 20px; /* Ruimte tussen de afbeeldingen */
+        justify-items: center; /* Zorgt ervoor dat de afbeeldingen in het midden van elke cel staan */
+        margin: 0 auto;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .posters img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .funrows {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .funrows img {
+      
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .funrows img:hover {
+        transform: scale(1.1); /* Vergroot de afbeelding */
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Voeg een lichte schaduw toe */
+    }
+
+    .introfun{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        gap: 100px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .textfun{
+        max-width: 750px;
+
+    }
+
+    .textfun h2{
+        margin-bottom: 25px;
+        color: #F6828C;
+
+    }
+
+    .textfun p{
+        color: #F4F0EA;
+    }
+
+    .wall{
+        display: block;
+        margin: 0 auto;
+        margin-top: 150px;
+        width: 90%;
+    }
+
+    .twopic{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 40px;
+   
+        align-items: center; 
+       }
+       .gridclimb {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+        gap: 16px;
+        padding: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 150px;
+    }
+    
+    .gridclimb img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .rowcards{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 150px;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .rowcards2{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-wrap: wrap;
+    }
+    .bigcard{
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+       padding-left: 20px;
+       padding-right: 20px;
+    }
+
+@media (max-width: 1375px) {
+    h2{
+        font-size: 40px;
+    }
+    
+    .Work h2 {
+        
+        top: -35px;
+    }
+    .Work{
+        height: 450px;
+    }
+    
+  
+}
+
+@media (max-width: 1250px) {
+  
+    .twopic{
+       flex-direction: column;
+       margin-left: 30px;
+       margin-right: 30px;
+       }
+   
+    .imgsec {
+        display: grid;
+        grid-template-columns: repeat(2, auto); /* 2 kolommen met automatische breedte */
+        gap: 40px;
+        justify-content: center;
+        margin-top: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .imgsec img {
+        width: 100%; /* Zorgt dat afbeeldingen netjes schalen */
+        max-width: 400px; /* Max breedte zodat ze niet te groot worden */
+        height: auto; /* Houdt de verhoudingen intact */
+    }
+    
+    .firstsec{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .secondsec{
+        flex-direction: column;
+    }
+
+    .img2sec{
+       
+        margin: 0 auto;
+        margin-top: 100px;
+        max-width: 300px;
+        width: 100%;
+    }
+    
+   
+
+h2{
+    font-size: 40px;
+}
+
+.Work h2 {
+    
+    top: -35px;
+}
+  }
+  
+
+  @media (max-width: 1150px) {
+    h2{
+        font-size: 35px;
+        
+    }
+
+    .Work h2 {
+    
+        top: -31px;
+    }
+
+    .Work {
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 23px;
+        
+       
+    }
+
+   
+   }
+
+
+  @media (max-width: 1080px) {
+
+    .Work{
+        height: 550px;
+    }
+    .img2sec{
+       
+        margin: 0 auto;
+        margin-top: 100px;
+        max-width: 200px;
+        width: 100%;
+    }
+    .object{
+        flex-wrap: wrap;
+    }
+
+    .three{
+        margin-top: 40px;
+    }
+
+    .MyWork h1{
+       text-align: center;
+    }
+
+    .Work{
+        
+           
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 40px;
+        
+    }
+
+    .pushing{
+        font-size: 17px;
+    }
+   }
+
+   @media (max-width: 1000px) {
+   
+ 
+    h1{
+     font-size: 87px;
+    }
+ 
+    .around{
+        width: 650px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+
+    /* .inhoud{
+        flex-direction: column;
+        gap: 10px;
+    } */
+    
+.projectphoto{
+    width: 45%;
+    height: 45%;
+    border-radius: 13px;
+
+}
+
+
+
+
+
+ .one{
+    margin-top: 40px;
+}
+ .two{
+    margin-top: 40px;
+}
+
+
+
+.MyWork h1 {
+    
+    margin-bottom: 80px;
+}
+
+
+h2{
+font-size: 40px;
+}
+
+.Work h2 {
+
+top: -35px;
+}
+   }
+
+
+
+   @media (max-width: 925px) {
+    .skill {
+       display: block;
+    }
+
+    .progressbar {
+        width: 100%;
+       margin-top: 20px;
+    }
+   }
+   
+   @media (max-width: 925px) {
+    .skill {
+       display: block;
+    }
+
+    .progressbar {
+        width: 100%;
+       margin-top: 20px;
+    }
+
+    .invis {
+        display: none ;
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    .specialhead{
+        justify-content: space-between;
+        gap: 20px;
+    }
+   }
+   
+   @media (max-width: 860px) {
+    .gridclimb {
+        grid-template-columns: 1fr; /* One column for smaller screens */
+    }
+
+    .introfun{
+        flex-direction: column;
+    }
+    .posters {
+        
+        grid-template-columns: repeat(2, 1fr); /* Verdeelt de afbeeldingen in 3 kolommen */
+        
+    }
+
+    .funrows{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+
+    .foot2{
+        margin-top: 80px;
+    }
+   }
+
+   @media (max-width:786px) {
+.Work{
+    height: 475px;
+}
+
+button{ font-size: 25px;
+margin-left: 20px;
+margin-right: 20px;}
+
+    .img2sec{
+       
+       flex-direction: column;
+       max-width: 400px;
+       width: 80%;
+       margin-top: 100px;
+    }
+    .scroll{
+        margin-bottom: 300px;
+    }
+
+    .scroll h2{
+        font-size: 25px;
+    }
+
+    h1{
+        font-size: 65px;}
+    
+      
+
+    .text h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+
+    
+   }
+
+   @media (max-width:700px) {
+    .around{
+        width: 90%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+    }
+    .inhoud{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .projectphoto {
+        width: 100%;
+        
+        border-radius: 13px;
+    }
+
+    .textinhoud{
+        max-width: 600px;
+    }
+   
+}
+
+   @media (max-width:600px) {
+    .specialhead h3{
+        font-size: 25px;
+    }
+   
+    h1{
+        font-size: 50px;}
+    
+        
+
+        .Work h2{
+            font-size: 30px;
+            top: -27px;
+        }
+
+        .skillnamepic h2{
+            font-size: 22px;
+        }
+
+        .skillnamepic img{
+            width: 35px;
+        }
+
+        .weg{
+            display: none;
+        }
+
+        .contacts {
+           
+            margin: 0 auto;
+   }
+}
+
+@media (max-width:500px) {
+
+    .posters {
+        
+        grid-template-columns: repeat(1, 1fr); /* Verdeelt de afbeeldingen in 3 kolommen */
+        
+    }
+
+   .aboutme{
+    flex-direction: column;
+   }
+   .aboutme img {
+   width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+   
+}
+
+.text{
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 30px;
+}
+   
+   }
+
+   @media (max-width:465px) {
+   
+    .imgsec{
+       gap: 10px;
+       margin-left: 10px;
+       margin-right:10px ;
+    }
+
+    .secondsec {
+        display: flex
+    ;
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+       margin-top: 90px;
+    }
+
+    .firstsec {
+        display: flex
+    ;
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+        gap: 90px;
+        margin-top: 90px;
+    }
+
+    h1{
+        font-size: 40px;}
+       
+       
+        .Work {
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-top: 35px;
+        }
+
+        .title {
+            
+            top: 230px;
+        
+        }
+    
+        .around{
+            width: 90%;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 30px;
+        }
+
+        .projectphoto {
+            width: 100%;
+            
+            border-radius: 13px;
+        }
+   }
+
+   @media (max-width:390px) {
+   
+    .Work{
+        height: 400px;
+    }
+
+    h1{
+        font-size: 34px;}
+    
+        
+       
+
+        .Work {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+        }
+
+        .title {
+            
+            top: 200px;
+            padding-left: 10px;
+            padding-right:10px ;
+        
+        }
+   }
+
+   @media (min-width:1650px) {
+   
+    p{font-size: 25px;}
+   }
+
+   .Work:hover {
+    background-color: #FFAD29; /* Nieuwe achtergrondkleur */
+}
+
+.Work:hover h2 {
+    color: #FFAD29; /* Nieuwe tekstkleur */
+}
+
+
+.scroll:hover {
+    
+    color: #7EBDC2; /* Nieuwe tekstkleur */
+}
+
+.scroll:hover .arrow1 {
+    display: none; /* Maak arrow 1 verborgen bij hover */
+}
+
+.scroll:hover .arrow2 {
+    display: block; /* Maak arrow 2 zichtbaar bij hover */
+}
+
+.around:hover {
+    background-color: orange; /* Verander de achtergrondkleur naar oranje bij hover */
+    transition: background-color 0.3s ease; /* Optioneel: voeg een overgangseffect toe */
+}
+
+a{text-decoration: none;
+color: inherit;
+cursor: pointer !important;
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translate(var(--x-start, 0px), -200px);
+        opacity: 1;
+    }
+    30% {
+        transform: translate(var(--x-mid, 0px), -50px);
+    }
+    50% {
+        transform: translate(var(--x-end, 0px), 0px);
+    }
+    70% {
+        transform: translate(var(--x-end, 0px), -20px);
+    }
+    100% {
+        transform: translate(var(--x-end, 0px), var(--final-pos, 0px));
+    }
+}
+
+
+section{
+    position: relative;
+    width: 100%;
+   
+    height: 500px;
+    margin-bottom: 150px;
+    background: #FFAD29;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2{
+    color: #444;
+}
+
+section .set{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 20%;
+    left: 0;
+    pointer-events: none;
+}
+
+section .set div{
+    position: absolute;
+    display: block;
+}
+
+section .set div:nth-child(1){
+    left: 30%;
+    animation: animate 15s linear infinite;
+    animation-delay: -7s ;
+}
+
+
+section .set div:nth-child(2){
+    left: 50%;
+    animation: animate 20s linear infinite;
+    animation-delay: -5s ;
+}
+
+section .set div:nth-child(3){
+    left: 70%;
+    animation: animate 20s linear infinite;
+    animation-delay: 0s ;
+}
+section .set div:nth-child(4){
+    left: 0%;
+    animation: animate 15s linear infinite;
+    animation-delay: -10s ;
+}
+
+section .set div:nth-child(5){
+    left: 85%;
+    animation: animate 18s linear infinite;
+    animation-delay: -5s ;
+}
+
+section .set div:nth-child(6){
+    left: 5%;
+    animation: animate 12s linear infinite;
+ 
+}
+
+section .set div:nth-child(7){
+    left: 15%;
+    animation: animate 14s linear infinite;
+ 
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        top: -10%;
+        transform: translateX(20px) rotate(0deg);
+    }
+    10%{
+        opacity: 1;
+        
+    }
+    20%{
+        transform: translateX(-20px) rotate(45deg);
+        
+    }
+    40%{
+        transform: translateX(-20px) rotate(90deg);
+        
+    }
+    60%{
+        transform: translateX(20px) rotate(180deg);
+        
+    }
+    80%{
+        transform: translateX(-20px) rotate(180deg);
+        
+    }
+    100%{
+        top: 110px;
+        transform: translateX(-20px) rotate(225deg);
+        
+    }
+}
+
+.set2{
+    transform: scale(2) rotateY(180deg);
+    filter: blur(1.2px);
+}
+
+.set3{
+    transform: scale(0.8) rotateX(180deg);
+    filter: blur(0.8px);
+}
+
+section h1{
+    color: #444;
+}
+
